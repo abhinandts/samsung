@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.div1 {
+    position: relative;
+    height: 600px;
+    background-image: url(/samsung/div1-img.webp);
+}
+
+.div1-content {
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    right: 0;
+    bottom: 0;
+
+    /* background-color: cadetblue; */
+
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1-content-title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.div-underh2 button {
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.div-underh2 button:hover {
+    color: rgb(84, 81, 81);
+    transition: 0.15s;
+}
+
+.div-underh2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^header^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+.horizontel-div{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.horizontel-div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    transition: .3s;
+}
+.horizontel-div img:hover{
+    transform: scale(1.1);
+    border-radius: 88px;
+    transition: .3s;
+}
+
+.div2{
+    display: flex;  
+}
+.vertical-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.vertical-div-row1-one,
+.vertical-div-row1-two,
+.vertical-div-row1-three,
+.vertical-div-row2-one,
+.vertical-div-row2-two,
+.vertical-div-row2-three{
+width: 300px;
+height: 300px;
+overflow: hidden;
+}
+
+.vertical-div img{
+    background-color: rgb(161, 102, 13);
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vertical-div img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: .3s;
+    
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^div2^^^^^^^^^^ */
+.div3{
+    background-image: url(/samsung/div3-img.avif);
+    height:750px;
+    background-position: center;
+}
+.upper-div{
+    /* margin-top: 20px; */
+    padding-top: 5px;
+}
+.body-div{
+height: 330px;
+}
+.lower-div{
+    height: 160px;
+    text-align: center;
+}
+/* ^^^^^^^^^^^^div3^^^^^^^^^^^^^^ */
+.div4-container{
+    display: flex;
+    justify-content: center;
+}
+.div4{
+    height: 565px;
+    width: 1040px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.first-product,
+.second-product,
+.third-product,
+.fourth-product{
+    height: 500px;
+    width: 255px;
+    background-color: rgb(249, 246, 240);
+    border-radius: 40px;
+}
+.product-img-div{
+    margin: auto;
+    width: 192px;
+}
+.product-img-div img{
+    width: 100%;
+}
+
+.product-info{
+    text-align: center;
+}
+
+.dot1,
+.dot2,
+.dot3{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.dot1{
+    background-color: rgb(198, 207, 224);
+height: 25px;
+width: 25px;
+border-radius: 12px;
+}
+.dot2{
+    background-color: black;
+}
+.dot3{
+    background-color: rgb(112, 106, 106);
+}
+
+.font{
+    font-size: 10px;
+    margin-bottom: 15px;
+
+}

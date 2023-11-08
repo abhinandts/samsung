@@ -1,0 +1,77 @@
+.header {
+    height: 62px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.samsung-logo {
+    height: 28.4375px;
+    cursor: pointer;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-right: 50px;
+}
+
+.second-section {
+    /* background-color: rgb(220, 245, 229); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section button,
+.third-section button,
+.div1-button {
+    border-radius: 20px;
+    border-width: 0;
+    padding: 7px;
+    background-color: white;
+    transition: .15s;
+}
+
+.second-section button:hover,
+.third-section button:hover,
+.div1-button:hover {
+    background-color: black;
+    color: white;
+    transition: .15s;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-third-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-section {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fourth-section img {
+    width: 22px;
+    height: 22px;
+}
+
+.fourth-section button {
+
+    border-width: 0;
+    background-color: white;
+    padding-right: 10px;
+    cursor: pointer;
+}
